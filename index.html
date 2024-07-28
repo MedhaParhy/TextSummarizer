@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Summarizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="title"><h1>Text Summarizer</h1></div>
+<div class="container">
+  <div class="text_input">
+    <h2>Text</h2>  
+    <div class="row">
+      <input type="text" id ="input-box" placeholder="Add your text">
+      <button onclick="addText()">Add</button>
+    </div>
+    <div class="row2">
+      <input type="number" id="num-sentences" placeholder="Number of Sentences" min="1" >
+      <button onclick="addNum()">Add</button>
+    </div>
+    <p id= "text"></p>
+    <p id = "sentences"></p>
+  </div>
+
+  <div class="text_output">
+    <h2>Summary</h2>  
+    
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
